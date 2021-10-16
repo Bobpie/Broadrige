@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ServiceNow">
+<parameter name="URL" value="https://dev98857.service-now.com/navpage.do"/>
+  <test name="Service Now Chrome">
+  <parameter name="Browser Name" value="CHROME"/>
+    <classes>
+      <class name="week8.day1.TC001"/>
+      <class name="week8.day1.TC002"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Service Now Edge">
+  <parameter name="Browser Name" value="EDGE"/>
+    <classes>
+      <class name="week8.day1.TC001"/>
+      <class name="week8.day1.TC002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ServiceNow -->
